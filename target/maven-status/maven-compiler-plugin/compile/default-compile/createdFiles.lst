@@ -1,0 +1,4 @@
+com\regression\SeleniumPageFactory.class
+com\regression\LoginPositiveTest.class
+com\regression\StepDef.class
+com\util\Highlighter.class

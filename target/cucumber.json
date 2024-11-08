@@ -1,0 +1,239 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1357301300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Open the browser",
+            "match": {
+              "location": "StepDef.open_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 777994400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Go to the application URL",
+            "match": {
+              "location": "StepDef.go_to_the_application_URL()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-11-03T10:06:19.941Z",
+        "line": 10,
+        "name": "As a user, Login should pass with valid credential",
+        "description": "",
+        "id": "login-function-test;as-a-user--login-should-pass-with-valid-credential",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 336320500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Put the valid user",
+            "match": {
+              "location": "StepDef.put_the_valid_user()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 145075800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Put the valid password",
+            "match": {
+              "location": "StepDef.put_the_valid_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10809082800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Click login button",
+            "match": {
+              "location": "StepDef.click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "Check the login function should pass logout button should visible",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Positive"
+          },
+          {
+            "name": "@TC_1"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1043977200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Open the browser",
+            "match": {
+              "location": "StepDef.open_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 950815400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Go to the application URL",
+            "match": {
+              "location": "StepDef.go_to_the_application_URL()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-11-03T10:06:33.382Z",
+        "line": 19,
+        "name": "As a user, Login should fail with invalid credential",
+        "description": "",
+        "id": "login-function-test;as-a-user--login-should-fail-with-invalid-credential",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 317802800,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Put the invalid user",
+            "match": {
+              "location": "StepDef.put_the_invalid_user()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 156048800,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Put the invalid password",
+            "match": {
+              "location": "StepDef.put_the_invalid_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10740182600,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Click login button",
+            "match": {
+              "location": "StepDef.click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 191562800,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Check the login function should fail",
+            "match": {
+              "location": "StepDef.check_the_login_function_should_fail()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Negative"
+          },
+          {
+            "name": "@TC_2"
+          }
+        ]
+      }
+    ],
+    "name": "Login function test",
+    "description": "",
+    "id": "login-function-test",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/LoginTest.feature",
+    "tags": [
+      {
+        "name": "@Smoke",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      },
+      {
+        "name": "@Regression",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 8
+        }
+      }
+    ]
+  }
+]
